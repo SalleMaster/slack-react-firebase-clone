@@ -1,6 +1,7 @@
 .message {
   display: flex;
   align-items: center;
+  padding: 20px;
 }
 
 .message > img {
@@ -12,6 +13,7 @@
 .message-timestamp {
   color: gray;
   font-weight: 300;
+  font-size: 13px;
 }
 
 .message-info {

@@ -27,8 +27,6 @@ const Chat = () => {
     }
   }, [roomId]);
 
-  console.log(roomMessages);
-
   return (
     <div className='chat'>
       <div className='chat-header'>
@@ -52,7 +50,7 @@ const Chat = () => {
               timestamp={message.timestamp}
               user={message.user}
               userImage={message.userImage}
-              key={message.id}
+              key={message.user}
             />
           ))}
       </div>
