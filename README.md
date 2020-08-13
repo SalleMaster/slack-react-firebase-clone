@@ -1,3 +1,13 @@
+# Firebase Deployment
+
+- firebase init
+- Choose Configure and deploy Firebase hosting sites
+- Use existing project
+- Type build for directory (not public)
+- Choose yes for single page apps
+- run npm run build
+- run firebase deploy
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
